@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>App para hacer cálculos con 2 números</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div><b>Ingresa los números y la operación</b>
+            <br><br>
+        <form action="ejemplo.jsp" method="post">
+            Numero 1:<br>
+            <input type="text" name="num1" value=""><br><br>
+            Numero 2:<br>
+            <input type="text" name="num2" value=""><br>
+            <br>Selecciona la operación:<br> 
+            <input type="radio" id="html" name="operacion" value="suma">
+            <label for="html">Suma</label><br>
+            <input type="radio" id="html" name="operacion" value="resta">
+            <label for="html">Resta</label><br>
+            <input type="radio" id="html" name="operacion" value="multiplicacion">
+            <label for="html">Multiplicación</label><br>
+            <input type="radio" id="html" name="operacion" value="division">
+            <label for="html">División</label><br>
+            <br><br>
+            <input type="submit" value="Calcular">
+        </form>
+    </div>
+    </body>
+</html>
