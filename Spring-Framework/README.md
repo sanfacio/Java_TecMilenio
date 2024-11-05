@@ -1,11 +1,11 @@
 
 
-# Setup Spring Framework 6.1.x
-## Setup micrometer 1.13.4
+# Setup Spring Framework 6.1.x and micrometer 1.13.4
 
 Para descargar y compilar **Spring Framework 6.1.x** desde el código fuente en *GitHub*, te proporciono una guía detallada de los pasos necesarios. Esto es útil si deseas tener control sobre el código fuente o hacer modificaciones específicas. A continuación, te explicaré los pasos:
 
 ---
+## Instalar Spring Framework 
 
 ### 1. Clonar el repositorio desde GitHub
 
